@@ -1,0 +1,621 @@
+/* Fonts */
+@font-face {
+  font-family: "AvenirNextPro";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_0_0.eot");
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_0_0.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_0_0.woff2")
+      format("woff2"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_0_0.woff")
+      format("woff"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_0_0.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "AvenirNextPro";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_1_0.eot");
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_1_0.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_1_0.woff2")
+      format("woff2"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_1_0.woff")
+      format("woff"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_1_0.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "AvenirNextPro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_2_0.eot");
+  src: url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_2_0.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_2_0.woff2")
+      format("woff2"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_2_0.woff")
+      format("woff"),
+    url("https://www.startsummit.ch/hubfs/b2match/fonts/381646_2_0.ttf")
+      format("truetype");
+}
+html,
+body{
+  font-family: "AvenirNextPro", sans-serif !important;
+}
+.h-center {
+  text-align: center;
+}
+.h-upper {
+  text-transform: uppercase;
+}
+.h-summit {
+  color: #ff2770 !important;
+}
+.h-hack {
+  color: #34e1b8 !important;
+}
+h1,
+.hh1 {
+  /* Avenir Next Heavy, all caps, 43 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: white;
+}
+h2,
+.hh2 {
+  /* Avenir Next Heavy, all caps, 24 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+}
+h3,
+.hh3 {
+  /* Avenir Next Bold, 18 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+h4,
+.hh4 {
+  /* Avenir Next Bold, 14 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+h5,
+.hh5 {
+  /* Avenir Next Medium, 12 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}
+h6,
+.hh6 {
+  /* Avenir Next Regular, 10 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+}
+p,
+.pp {
+  font-family: "AvenirNextPro";
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: white;
+}
+
+/* Gradients */
+.horizontal_gradient_dark_summit {
+  background: rgb(23, 10, 30);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(23, 10, 30, 1) 0%,
+    rgba(55, 24, 74, 1) 29%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(23, 10, 30, 1) 0%,
+    rgba(55, 24, 74, 1) 29%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(23, 10, 30, 1) 0%,
+    rgba(55, 24, 74, 1) 29%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#170a1e",endColorstr="#37184a",GradientType=1);
+}
+.horizontal_gradient_light_summit {
+  background: rgb(255, 39, 112);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(255, 39, 112, 1) 0%,
+    rgba(255, 39, 112, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(255, 39, 112, 1) 0%,
+    rgba(255, 39, 112, 0) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(255, 39, 112, 1) 0%,
+    rgba(255, 39, 112, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff2770",endColorstr="#ff2770",GradientType=1);
+}
+.vertical_gradient_full_summit {
+  background: rgb(55, 24, 74);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37184a",endColorstr="#501056",GradientType=1);
+}
+.vertical_gradient_half_summit {
+  background: rgb(55, 24, 74);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 0) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 0) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 0) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37184a",endColorstr="#501056",GradientType=1);
+}
+.horizontal_gradient_dark_hack {
+  background: rgb(12, 39, 36);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(12, 39, 36, 1) 0%,
+    rgba(20, 65, 70, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(12, 39, 36, 1) 0%,
+    rgba(20, 65, 70, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(12, 39, 36, 1) 0%,
+    rgba(20, 65, 70, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2724",endColorstr="#144146",GradientType=1);
+}
+.horizontal_gradient_light_hack {
+  background: rgb(40, 158, 144);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(40, 158, 144, 1) 0%,
+    rgba(122, 29, 87, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(40, 158, 144, 1) 0%,
+    rgba(122, 29, 87, 0) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(40, 158, 144, 1) 0%,
+    rgba(122, 29, 87, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#289e90",endColorstr="#7a1d57",GradientType=1);
+}
+.vertical_gradient_full_hack {
+  background: rgb(20, 65, 70);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 1) 0%,
+    rgba(27, 90, 104, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 1) 0%,
+    rgba(27, 90, 104, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 1) 0%,
+    rgba(27, 90, 104, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#144146",endColorstr="#1b5a68",GradientType=1);
+}
+.vertical_gradient_half_hack {
+  background: rgb(20, 65, 70);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 0) 0%,
+    rgba(25, 81, 87, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 0) 0%,
+    rgba(25, 81, 87, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(20, 65, 70, 0) 0%,
+    rgba(25, 81, 87, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#144146",endColorstr="#195157",GradientType=1);
+}
+
+/* Backgrounds */
+.summitBackground {
+  background-color: #170a1e;
+  background-image: url("https://www.startsummit.ch/hubfs/b2match/summit.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hackBaground {
+  background-color: #0c2724;
+  background-image: url("https://www.startsummit.ch/hubfs/b2match/hack.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Buttons */
+.btnSummit {
+  color: #ff2770;
+  border-color: #ff2770;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid;
+  text-align: center;
+}
+.btnSummit:hover {
+  color: #fff;
+  border-color: #ff2770;
+  background-color: #ff2770;
+}
+.btnSummit.wide {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+.btnSummit.big {
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  border: 2px solid;
+  font-size: 1.2rem;
+}
+.btnSummit.big:hover {
+  color: #fff;
+  border-color: #ff2770;
+  background-color: #ff2770;
+}
+.btnHack {
+  color: #34e1b8;
+  border-color: #34e1b8;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid;
+  text-align: center;
+}
+.btnHack:hover {
+  color: #fff;
+  border-color: #34e1b8;
+  background-color: #34e1b8;
+}
+.btnHack.wide {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+.btnHack.big {
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  border: 2px solid;
+  font-size: 1.2rem;
+}
+.btnHack.big:hover {
+  color: #fff;
+  border-color: #34e1b8;
+  background-color: #34e1b8;
+}
+/* Sudo stuff */
+.btnSummitSudo {
+  color: #ff2770 !important;
+  border-color: #ff2770 !important;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem !important;
+  border-radius: 0.2rem !important;
+  border: 1px solid !important;
+  text-align: center !important;
+}
+.btnSummitSudo:hover {
+  color: #fff !important;
+  border-color: #ff2770 !important;
+  background-color: #ff2770!important;
+}
+.btn:link {
+  text-decoration: none;
+}
+.btn:visited {
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:active {
+  text-decoration: none;
+}
+
+/* Images */
+.rc {
+  border-radius: 0.5rem;
+}
+
+/* Sections */
+.section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section.small {
+  width: 50%;
+}
+.section.medium {
+  width: 70%;
+}
+.section.large {
+  width: 100%;
+}
+
+/* Paddings */
+.paddingTD1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.paddingTD2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.paddingTD3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Other */
+.brr {
+  border-style: solid;
+  border-color: red;
+}
+
+/* Text Boxes Modifiers */
+.importantText{
+  background-color: #ff2770;
+  border: 1px solid #ff2770;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 0.5rem;
+}
+.importantText.summit{
+  background-color: #ff2770;
+  border: 1px solid #ff2770;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 0.5rem;
+}
+.importantText.hack{
+  background-color: #34E1B8;
+  border: 1px solid #34E1B8;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.buttonOnSidebar {
+  color: #ffffff;
+  border-color: #ffffff;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration:none !important;
+
+}
+.buttonOnSidebar:hover {
+  color: #ff2770;
+  border-color: #ff2770;
+  text-decoration:none !important;
+}
+
+
+
+/*Write your css bellow  */
+/* .body{
+  background-color: blue;
+  border: 3px solid red;
+  display: block;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.box1{
+  background-color: #34E1B8;
+  border: 3px solid black;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box2{
+  background-color: pink;
+  border: 3px solid black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.content{
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content .images {
+  box-shadow: 0px 0px 5px #000;
+  flex: 1 0 200px;
+  height: 20vh;
+  margin: 12px;
+  transition: all 300ms ease-in-out;
+  width: 20vh;
+}
+
+.content .images:hover{
+  box-shadow: 20px 20px 50px gold;
+  height: 22vh;
+  width: 22vh; 
+}
+
+.images {
+  background-color: violet;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: black;
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 20vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 200ms ease-out;
+  width: 20vh;
+}
+
+.slider1 {
+  background-color: green;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 1fr 1fr 100px;
+  flex-flow: row wrap;
+  height: 90vh;
+  padding: 10px;
+  width: 100%;
+}
+
+.title{
+  border: 3px solid black;
+  background-color: red;
+  box-sizing: border-box;
+  grid-column-start: 1;
+  grid-column-end: 4; 
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.totalbox {
+  background-color: blue;
+  border: 3px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}
+.uk-card-body {
+  padding: 0;
+} */
+
+.vertical_gradient_full_summit {
+  background: rgb(55, 24, 74);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(55, 24, 74, 1) 0%,
+    rgba(80, 16, 86, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37184a",endColorstr="#501056",GradientType=1);
+}
+
+html,
+body{
+  font-family: "AvenirNextPro", sans-serif !important;
+  background-color: #3d123f;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+  width: 100%;
+
+}
+h1{
+/* Avenir Next Heavy, all caps, 43 pt */
+font-family: "AvenirNextPro", sans-serif;
+font-size: 3.6rem;
+font-weight: 800;
+color: white;
+}
+p{
+  /* Avenir Next Heavy, all caps, 43 pt */
+  font-family: "AvenirNextPro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 250;
+  color: white;
+}
